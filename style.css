@@ -1,0 +1,211 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-inner{
+  background-color: white;
+}
+
+.custom-toggler{
+color: black;
+border: 2px solid black;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky{
+  background: #fff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+header ul {
+  margin-top: 0px;
+  margin-bottom: 0rem;
+}
+
+header .logo{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header.sticky .logo{
+  color: #111;
+}
+
+header .logo  span{
+  color: #d90166 ;
+}
+
+header .navigation{
+  position: relative;
+  display: flex;
+}
+
+header .navigation li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navigation li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+header.sticky .navigation li a{
+  
+  color: #111;
+}
+
+header .navigation li a:hover{
+  color:#d90166;
+}
+
+.btn{
+  font-size: 1em;
+  color: #fff;
+  background: #4b8b3b;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;    
+}
+
+.btn:hover{
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.green{   
+    color: green;
+    padding: 2px;
+}
+
+.green1{
+  color: #53a92c;
+}
+
+.cardtext a{
+  color: #111;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.cardtext a:hover{
+  color: #53a92c;
+}
+
+.carousel-item h1 ,h5{
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 80px;
+  }
+.none{
+background-color: #f2cf07;
+background-image: linear-gradient(196deg, #f2cf07 17%, #55d284 72%)
+}
+
+ul.social {
+  padding: 2px;
+}
+
+.our-services:hover{
+  margin-top: 12px;
+  transition: all .3s ease-in-out
+}
+
+footer .social{
+  width: 100%;
+  padding: 6px 100px;
+  right: 0;
+  bottom: 0;  
+}
+
+footer .social li{
+  list-style: none;
+}
+
+footer .social li a{
+  color: #53a92c;  
+}
+
+footer .social li a:hover{
+  color: darkgreen;
+}
+
+.social{
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+/* couresel headings */
+  @media screen and (max-width: 525px){
+    .big{
+        display: none;
+    }
+  }
+
+  /* couresel headings */
+  @media screen and (min-width: 525px){
+    .small{
+        display: none;
+    }   
+  }
+/* 2nd section nature movement */
+  @media screen and (max-width: 765px){
+    .none{
+        display: none;
+        
+    }
+}
+@media screen and (min-width: 765px){
+    .disp{
+        display: none;
+        
+    }
+  }
+/* navdisp */
+@media screen and (max-width: 591px){
+  .nonenav{
+      display: none;
+      
+  }
+}
+  @media screen and (min-width: 591px){
+    .dispnav{
+        display: none;
+        
+    }
+  }
+
+  @media screen and (max-width: 525px){
+  .carousel-inner img {
+    width: 100%;
+    height: 50vh;
+  }
+}
